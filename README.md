@@ -6,6 +6,7 @@ Universal JS script to find utm_source in website url, attach it to session and 
 
 * Retain site visitor origin for the whole session duration.
 * Google Ads compatible
+* Customizable tag search
 
 ## Usage
 
