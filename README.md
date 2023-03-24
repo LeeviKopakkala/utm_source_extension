@@ -2,6 +2,11 @@
 
 Universal JS script to find utm_source in website url, attach it to session and add as hidden field to all forms.
 
+## Features
+
+* Retain site visitor origin for the whole session duration.
+* Google Ads compatible
+
 ## Usage
 
 ### General usage
