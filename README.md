@@ -20,7 +20,7 @@ Field `utm_source` is automatically attached to all forms within the page.
 ### Webflow
 
 1. Copy content of utm_source_inline.html.
-2. Paste it to Project settings -> Custom Code -> Footer Settings.
+2. Paste it to Project settings -> Custom Code -> Footer Code.
 
 ### Wordpress
 
