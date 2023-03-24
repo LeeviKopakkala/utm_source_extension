@@ -6,15 +6,15 @@ Universal JS script to find utm_source in website url, attach it to session and 
 
 ### General usage
 
-1. Copy content of utm_source.js.
-2. Paste it to end of site `body` within `<script>` tag.
+1. Copy content of utm_source_inline.html.
+2. Paste it to end of site `body` tag.
 
 Field `utm_source` is automatically attached to all forms within the page.
 
 ### Webflow
 
-1. Copy content of utm_source.js.
-2. Paste it to Project settings -> Custom Code -> Footer Settings within `<script>` tag.
+1. Copy content of utm_source_inline.html.
+2. Paste it to Project settings -> Custom Code -> Footer Settings.
 
 Example:
 
