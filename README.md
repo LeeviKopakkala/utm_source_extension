@@ -22,6 +22,18 @@ Field `utm_source` is automatically attached to all forms within the page.
 1. Copy content of utm_source_inline.html.
 2. Paste it to Project settings -> Custom Code -> Footer Settings.
 
+### Wordpress
+
+1. Attach script to end of footer with:
+```php
+add_action('wp_body_open', 'add_code_on_body_open');
+function add_utm_source() {
+    echo 'COPY CONTENT OF utm_source_inline.html';
+}
+```
+
+<hr>
+
 Example:
 
 ```html
