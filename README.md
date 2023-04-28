@@ -47,7 +47,7 @@ const utm_source = sessionStorage.getItem(TAG)
 if (!utm_source && params.get(TAG)) {
   sessionStorage.setItem(TAG, params.get(TAG))
   const session = sessionStorage.getItem(TAG)
-  utm_source = params.get(utm_source)
+  utm_source = params.get(TAG)
 }
 document.addEventListener("DOMContentLoaded", () => {
   const forms = document.forms
